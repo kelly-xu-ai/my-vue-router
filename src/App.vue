@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <h1>
-      哈喽啊 {{$kkbrouter}}
+      哈喽啊 {{$xulei}}
     </h1>
     <div id="nav">
       <button @click="about">about</button>

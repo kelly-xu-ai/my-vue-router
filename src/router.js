@@ -1,11 +1,11 @@
 import Vue from 'vue'
 import Home from './views/Home.vue'
-import KRouter from './krouter'
+import xRouter from './test'
 // 实际执行的是install方法
-Vue.use(KRouter)
+Vue.use(xRouter)
 
 // 路由基本的配置
-export default new KRouter({
+export default new xRouter({
   routes:[
     {
       path:'/',
